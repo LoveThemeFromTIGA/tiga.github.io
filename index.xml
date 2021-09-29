@@ -7,10 +7,10 @@
     <generator>Hugo -- gohugo.io</generator><atom:link href="http://192.168.8.206/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://192.168.8.206/readme/</link>
+      <link>http://192.168.8.206/readmehehe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.8.206/readme/</guid>
+      <guid>http://192.168.8.206/readmehehe/</guid>
       <description>vue学习笔记     1. npm常用命令    # 初始化 npm init --yes # 表示安装到当前目录，并添加到开发依赖 npm install bootstrap --save-dev # 表示安装到当前目录，并添加到运行时依赖 npm install jquery 2. package.json解析    { &amp;#34;name&amp;#34;: &amp;#34;it_feng_vue3&amp;#34;, &amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;, &amp;#34;description&amp;#34;: &amp;#34;this is IT峰播 vue3&amp;#34;, &amp;#34;main&amp;#34;: &amp;#34;index.js&amp;#34;, &amp;#34;scripts&amp;#34;: { &amp;#34;test&amp;#34;: &amp;#34;echo \&amp;#34;Error: no test specified\&amp;#34; &amp;amp;&amp;amp; exit 1&amp;#34; }, &amp;#34;keywords&amp;#34;: [], &amp;#34;author&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;license&amp;#34;: &amp;#34;ISC&amp;#34;, &amp;#34;dependencies&amp;#34;: { // ^表示3.x.x最新版,3不会动，3是大版本变动比较大 &amp;#34;jquery&amp;#34;: &amp;#34;^3.6.0&amp;#34; }, &amp;#34;devDependencies&amp;#34;: { // ~表示值更新5.</description>
     </item>
     
