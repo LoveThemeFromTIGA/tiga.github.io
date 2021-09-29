@@ -10,7 +10,8 @@
 
 
 
-    <meta name="description" content="vue学习笔记      vue学习笔记    1. npm常用命令 2. package.json解析 4. 使用babel 将es6语法转换成es5  4.1 在浏览器中使用babel 4.2 在服务端使用babel提前编译   5. webpack使用  5.1 安装webpack 5.2 webpack常用命令 5.3 webpack配置文件详解  5.3.1 在项目目录中创建文件webpack.config.js 5.3.2 多入口多出口情况 5.3.3 打包html/css/js  安装插件 打包单个html 打包多个html 打包css/less/sass文件 提取css为单独文件 处理css浏览器兼容性 压缩css 打包图片资源 打包其他资源：字体图标       6.使用eslint对js语法进行检查 7. 配置devServer 8. 环境优化配置  8.1 开发环境优化 8.2 生产环境的优化(去除未被调用的代码)   9. es6语法  9.">
+    <meta name="description" content="vue学习笔记    [toc]
+1. npm常用命令    # 初始化 npm init --yes # 表示安装到当前目录，并添加到开发依赖 npm install bootstrap --save-dev # 表示安装到当前目录，并添加到运行时依赖 npm install jquery 2. package.json解析    { &#34;name&#34;: &#34;it_feng_vue3&#34;, &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;this is IT峰播 vue3&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;: { &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34; }, &#34;keywords&#34;: [], &#34;author&#34;: &#34;&#34;, &#34;license&#34;: &#34;ISC&#34;, &#34;dependencies&#34;: { // ^表示3.x.x最新版,3不会动，3是大版本变动比较大 &#34;jquery&#34;: &#34;^3.6.0&#34; }, &#34;devDependencies&#34;: { // ~表示值更新5.">
 
 
 
@@ -23,7 +24,8 @@
     
 
     <meta property="og:title" content="" />
-<meta property="og:description" content="vue学习笔记      vue学习笔记    1. npm常用命令 2. package.json解析 4. 使用babel 将es6语法转换成es5  4.1 在浏览器中使用babel 4.2 在服务端使用babel提前编译   5. webpack使用  5.1 安装webpack 5.2 webpack常用命令 5.3 webpack配置文件详解  5.3.1 在项目目录中创建文件webpack.config.js 5.3.2 多入口多出口情况 5.3.3 打包html/css/js  安装插件 打包单个html 打包多个html 打包css/less/sass文件 提取css为单独文件 处理css浏览器兼容性 压缩css 打包图片资源 打包其他资源：字体图标       6.使用eslint对js语法进行检查 7. 配置devServer 8. 环境优化配置  8.1 开发环境优化 8.2 生产环境的优化(去除未被调用的代码)   9. es6语法  9." />
+<meta property="og:description" content="vue学习笔记    [toc]
+1. npm常用命令    # 初始化 npm init --yes # 表示安装到当前目录，并添加到开发依赖 npm install bootstrap --save-dev # 表示安装到当前目录，并添加到运行时依赖 npm install jquery 2. package.json解析    { &#34;name&#34;: &#34;it_feng_vue3&#34;, &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;this is IT峰播 vue3&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;: { &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34; }, &#34;keywords&#34;: [], &#34;author&#34;: &#34;&#34;, &#34;license&#34;: &#34;ISC&#34;, &#34;dependencies&#34;: { // ^表示3.x.x最新版,3不会动，3是大版本变动比较大 &#34;jquery&#34;: &#34;^3.6.0&#34; }, &#34;devDependencies&#34;: { // ~表示值更新5." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://192.168.8.206/readmehehe/" /><meta property="article:section" content="" />
 
@@ -32,7 +34,8 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="vue学习笔记      vue学习笔记    1. npm常用命令 2. package.json解析 4. 使用babel 将es6语法转换成es5  4.1 在浏览器中使用babel 4.2 在服务端使用babel提前编译   5. webpack使用  5.1 安装webpack 5.2 webpack常用命令 5.3 webpack配置文件详解  5.3.1 在项目目录中创建文件webpack.config.js 5.3.2 多入口多出口情况 5.3.3 打包html/css/js  安装插件 打包单个html 打包多个html 打包css/less/sass文件 提取css为单独文件 处理css浏览器兼容性 压缩css 打包图片资源 打包其他资源：字体图标       6.使用eslint对js语法进行检查 7. 配置devServer 8. 环境优化配置  8.1 开发环境优化 8.2 生产环境的优化(去除未被调用的代码)   9. es6语法  9."/>
+<meta name="twitter:description" content="vue学习笔记    [toc]
+1. npm常用命令    # 初始化 npm init --yes # 表示安装到当前目录，并添加到开发依赖 npm install bootstrap --save-dev # 表示安装到当前目录，并添加到运行时依赖 npm install jquery 2. package.json解析    { &#34;name&#34;: &#34;it_feng_vue3&#34;, &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;this is IT峰播 vue3&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;: { &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34; }, &#34;keywords&#34;: [], &#34;author&#34;: &#34;&#34;, &#34;license&#34;: &#34;ISC&#34;, &#34;dependencies&#34;: { // ^表示3.x.x最新版,3不会动，3是大版本变动比较大 &#34;jquery&#34;: &#34;^3.6.0&#34; }, &#34;devDependencies&#34;: { // ~表示值更新5."/>
 
 
     <script src="/js/darkmode-ce906ea916.min.js"></script>
@@ -66,7 +69,7 @@
     "name": "",
     "headline": "",
     "alternativeHeadline": "",
-    "description": "vue学习笔记      vue学习笔记    1. npm常用命令 2. package.json解析 4. 使用babel 将es6语法转换成es5  4.1 在浏览器中使用babel 4.2 在服务端使用babel提前编译   5. webpack使用  5.1 安装webpack 5.2 webpack常用命令 5.3 webpack配置文件详解  5.3.1 在项目目录中创建文件webpack.config.js 5.3.2 多入口多出口情况 5.3.3 打包html\/css\/js  安装插件 打包单个html 打包多个html 打包css\/less\/sass文件 提取css为单独文件 处理css浏览器兼容性 压缩css 打包图片资源 打包其他资源：字体图标       6.使用eslint对js语法进行检查 7. 配置devServer 8. 环境优化配置  8.1 开发环境优化 8.2 生产环境的优化(去除未被调用的代码)   9. es6语法  9.",
+    "description": "vue学习笔记    [toc]\n1. npm常用命令    # 初始化 npm init --yes # 表示安装到当前目录，并添加到开发依赖 npm install bootstrap --save-dev # 表示安装到当前目录，并添加到运行时依赖 npm install jquery 2. package.json解析    { \u0026#34;name\u0026#34;: \u0026#34;it_feng_vue3\u0026#34;, \u0026#34;version\u0026#34;: \u0026#34;1.0.0\u0026#34;, \u0026#34;description\u0026#34;: \u0026#34;this is IT峰播 vue3\u0026#34;, \u0026#34;main\u0026#34;: \u0026#34;index.js\u0026#34;, \u0026#34;scripts\u0026#34;: { \u0026#34;test\u0026#34;: \u0026#34;echo \\\u0026#34;Error: no test specified\\\u0026#34; \u0026amp;\u0026amp; exit 1\u0026#34; }, \u0026#34;keywords\u0026#34;: [], \u0026#34;author\u0026#34;: \u0026#34;\u0026#34;, \u0026#34;license\u0026#34;: \u0026#34;ISC\u0026#34;, \u0026#34;dependencies\u0026#34;: { \/\/ ^表示3.x.x最新版,3不会动，3是大版本变动比较大 \u0026#34;jquery\u0026#34;: \u0026#34;^3.6.0\u0026#34; }, \u0026#34;devDependencies\u0026#34;: { \/\/ ~表示值更新5.",
     "inLanguage": "en",
     "isFamilyFriendly": "true",
     "mainEntityOfPage": {
@@ -90,7 +93,7 @@
         }
     },
     "url" : "http:\/\/192.168.8.206\/readmehehe\/",
-    "wordCount" : "2928",
+    "wordCount" : "2811",
     "genre" : [ ]
 }
 </script>
@@ -294,124 +297,7 @@
             <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
-</div>
-
-
-  <div class="gdoc-toc gdoc-toc__level--6"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#vue学习笔记">vue学习笔记</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#1-npm常用命令">1. npm常用命令</a></li>
-            <li><a href="#2-packagejson解析">2. package.json解析</a></li>
-            <li><a href="#4-使用babel-将es6语法转换成es5">4. 使用babel 将es6语法转换成es5</a>
-              <ul>
-                <li><a href="#41-在浏览器中使用babel">4.1 在浏览器中使用babel</a></li>
-                <li><a href="#42-在服务端使用babel提前编译">4.2 在服务端使用babel提前编译</a></li>
-              </ul>
-            </li>
-            <li><a href="#5-webpack使用">5. webpack使用</a>
-              <ul>
-                <li><a href="#51-安装webpack">5.1 安装webpack</a></li>
-                <li><a href="#52-webpack常用命令">5.2 webpack常用命令</a></li>
-                <li><a href="#53-webpack配置文件详解">5.3 webpack配置文件详解</a>
-                  <ul>
-                    <li><a href="#531-在项目目录中创建文件webpackconfigjs">5.3.1 在项目目录中创建文件webpack.config.js</a></li>
-                    <li><a href="#532-多入口多出口情况">5.3.2 多入口多出口情况</a></li>
-                    <li><a href="#533-打包htmlcssjs">5.3.3 打包html/css/js</a>
-                      <ul>
-                        <li><a href="#安装插件">安装插件</a></li>
-                        <li><a href="#打包单个html">打包单个html</a></li>
-                        <li><a href="#打包多个html">打包多个html</a></li>
-                        <li><a href="#打包csslesssass文件">打包css/less/sass文件</a></li>
-                        <li><a href="#提取css为单独文件">提取css为单独文件</a></li>
-                        <li><a href="#处理css浏览器兼容性">处理css浏览器兼容性</a></li>
-                        <li><a href="#压缩css">压缩css</a></li>
-                        <li><a href="#打包图片资源">打包图片资源</a></li>
-                        <li><a href="#打包其他资源字体图标">打包其他资源：字体图标</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#6使用eslint对js语法进行检查">6.使用eslint对js语法进行检查</a></li>
-            <li><a href="#7-配置devserver">7. 配置devServer</a></li>
-            <li><a href="#8-环境优化配置">8. 环境优化配置</a>
-              <ul>
-                <li><a href="#81-开发环境优化">8.1 开发环境优化</a></li>
-                <li><a href="#82-生产环境的优化去除未被调用的代码">8.2 生产环境的优化(去除未被调用的代码)</a></li>
-              </ul>
-            </li>
-            <li><a href="#9-es6语法">9. es6语法</a>
-              <ul>
-                <li><a href="#91-箭头函数和this指向">9.1 箭头函数和this指向</a></li>
-                <li><a href="#92-数组中新增加的高级函数">9.2 数组中新增加的高级函数</a></li>
-                <li><a href="#93-map和set">9.3 map和set</a></li>
-                <li><a href="#94-模板字符串">9.4 模板字符串</a></li>
-                <li><a href="#95-解构赋值和扩展运算符号">9.5 解构赋值和扩展运算符号</a></li>
-                <li><a href="#96-class的用法和json新应用">9.6 class的用法和json新应用</a></li>
-                <li><a href="#97-module模块化编程export和import">9.7 module模块化编程export和import</a>
-                  <ul>
-                    <li><a href="#方式一">方式一</a></li>
-                    <li><a href="#方式二导出函数允许自定义命名">方式二，导出函数允许自定义命名</a></li>
-                    <li><a href="#方式三导出取别名与导入全部">方式三：导出取别名与导入全部</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#10-axios与promise">10 axios与promise</a>
-              <ul>
-                <li><a href="#101-promise的使用">10.1 promise的使用</a></li>
-                <li><a href="#102-axios的使用">10.2 axios的使用</a>
-                  <ul>
-                    <li><a href="#1021-axios的初步使用">10.2.1 axios的初步使用</a></li>
-                    <li><a href="#1022-axios的传参">10.2.2 axios的传参</a></li>
-                    <li><a href="#1023-生产环境使用axios">10.2.3 生产环境使用axios</a></li>
-                    <li><a href="#1024-axios的并发请求">10.2.4 axios的并发请求</a></li>
-                    <li><a href="#1025-axios的全局配置">10.2.5 axios的全局配置</a></li>
-                    <li><a href="#1026-axios的实例封装">10.2.6 axios的实例封装</a></li>
-                    <li><a href="#1027-axios的拦截器">10.2.7 axios的拦截器</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#11-vue3的学习">11 vue3的学习</a>
-              <ul>
-                <li><a href="#111-基本使用">11.1 基本使用</a>
-                  <ul>
-                    <li><a href="#1111-cdn的方式使用vue3">11.1.1 cdn的方式使用vue3</a></li>
-                    <li><a href="#1112">11.1.2</a></li>
-                  </ul>
-                </li>
-                <li><a href="#112-v-for循环">11.2 v-for循环</a></li>
-                <li><a href="#113-绑定属性">11.3 绑定属性</a></li>
-                <li><a href="#114-自定义方法">11.4 自定义方法</a></li>
-                <li><a href="#115-vue脚手架">11.5 vue脚手架</a>
-                  <ul>
-                    <li><a href="#1151-安装vue脚手架">11.5.1 安装vue脚手架</a></li>
-                    <li><a href="#1152-vueconfigjs配置文件">11.5.2 vue.config.js配置文件</a></li>
-                    <li><a href="#1153-初步使用vue组件">11.5.3 初步使用vue组件</a></li>
-                    <li><a href="#1154-eslint自动修复">11.5.4 eslint自动修复</a></li>
-                  </ul>
-                </li>
-                <li><a href="#116-options基础定义与v-model">11.6 options基础定义与v-model</a></li>
-                <li><a href="#117-模板基础语法">11.7 模板基础语法</a>
-                  <ul>
-                    <li><a href="#1171-插值操作">11.7.1 插值操作</a></li>
-                    <li><a href="#1172-v-bind使用">11.7.2 v-bind使用</a></li>
-                    <li><a href="#1173-计算属性computed">11.7.3 计算属性computed</a></li>
-                    <li><a href="#1174-事件监听v-on">11.7.4 事件监听v-on</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul></nav><hr></div>
-
-
+</div><p>[toc]</p>
 <div class="gdoc-page__anchorwrap">
     <h3 id="1-npm常用命令">
         1. npm常用命令

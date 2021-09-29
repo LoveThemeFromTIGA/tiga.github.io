@@ -11,7 +11,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://192.168.8.206/readmehehe/</guid>
-      <description>vue学习笔记      vue学习笔记    1. npm常用命令 2. package.json解析 4. 使用babel 将es6语法转换成es5  4.1 在浏览器中使用babel 4.2 在服务端使用babel提前编译   5. webpack使用  5.1 安装webpack 5.2 webpack常用命令 5.3 webpack配置文件详解  5.3.1 在项目目录中创建文件webpack.config.js 5.3.2 多入口多出口情况 5.3.3 打包html/css/js  安装插件 打包单个html 打包多个html 打包css/less/sass文件 提取css为单独文件 处理css浏览器兼容性 压缩css 打包图片资源 打包其他资源：字体图标       6.使用eslint对js语法进行检查 7. 配置devServer 8. 环境优化配置  8.1 开发环境优化 8.2 生产环境的优化(去除未被调用的代码)   9. es6语法  9.</description>
+      <description>vue学习笔记    [toc]
+1. npm常用命令    # 初始化 npm init --yes # 表示安装到当前目录，并添加到开发依赖 npm install bootstrap --save-dev # 表示安装到当前目录，并添加到运行时依赖 npm install jquery 2. package.json解析    { &amp;#34;name&amp;#34;: &amp;#34;it_feng_vue3&amp;#34;, &amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;, &amp;#34;description&amp;#34;: &amp;#34;this is IT峰播 vue3&amp;#34;, &amp;#34;main&amp;#34;: &amp;#34;index.js&amp;#34;, &amp;#34;scripts&amp;#34;: { &amp;#34;test&amp;#34;: &amp;#34;echo \&amp;#34;Error: no test specified\&amp;#34; &amp;amp;&amp;amp; exit 1&amp;#34; }, &amp;#34;keywords&amp;#34;: [], &amp;#34;author&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;license&amp;#34;: &amp;#34;ISC&amp;#34;, &amp;#34;dependencies&amp;#34;: { // ^表示3.x.x最新版,3不会动，3是大版本变动比较大 &amp;#34;jquery&amp;#34;: &amp;#34;^3.6.0&amp;#34; }, &amp;#34;devDependencies&amp;#34;: { // ~表示值更新5.</description>
     </item>
     
   </channel>
