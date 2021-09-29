@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /tags/*
+
+Sitemap: http://192.168.8.206/sitemap.xml
